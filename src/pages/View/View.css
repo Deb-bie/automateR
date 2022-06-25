@@ -1,0 +1,43 @@
+.mains{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.data-styles{
+    height: 500px;
+    min-width: 900px;
+    margin-top :80px;
+}
+
+
+@media screen and (max-width: 960px) {
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .data-styles{
+        height: 500px;
+        min-width: 100vw;
+        margin-top :80px;
+    }
+
+
+    .data-styles{
+
+        width: 100vw;
+    }
+}
